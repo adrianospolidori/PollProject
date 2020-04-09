@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC", "IoC\IoC.csproj", "{724BA3EA-208F-48D8-903A-8EE3A2C16B94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "Infra\Infra.csproj", "{2623E897-A6EA-437A-B128-4BA5E9779748}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra", "Infra\Infra.csproj", "{2623E897-A6EA-437A-B128-4BA5E9779748}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

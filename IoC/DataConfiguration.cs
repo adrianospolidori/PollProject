@@ -1,6 +1,7 @@
 ﻿using Data;
 using Data.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
+using Model;
 
 namespace IoC
 {
@@ -10,6 +11,7 @@ namespace IoC
         {
             services.AddTransient<IPollRepository, PollRepository>();
             services.AddTransient<IPollOptionRepository, PollOptionRepository>();
+            services.AddTransient<IRepositoryBase<Poll>, RepositoryBase<Poll>>();
 
             return services;
         }

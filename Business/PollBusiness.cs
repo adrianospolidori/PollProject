@@ -19,7 +19,7 @@ namespace Business
 
         public PollResult Get(int id)
         {
-            var poll = _repository.Get(id);
+            var poll = _repository.GetById(id);
 
             if (poll == null)
                 return null;
@@ -65,7 +65,7 @@ namespace Business
 
         public PollStatsResult GetStats(int id)
         {
-            var poll = _repository.Get(id);
+            var poll = _repository.GetById(id);
 
             if (poll == null)
                 return null;
