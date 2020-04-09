@@ -14,7 +14,7 @@ namespace Data
             this._context = context;
         }
 
-        public T GetById(long id)
+        public T GetById(int id)
         {
             var result = _context.Set<T>().Find(id);
 
@@ -42,7 +42,7 @@ namespace Data
             _context.SaveChanges();
         }
 
-        public void Delete(long id)
+        public void Delete(int id)
         {
             var model = _context.Set<T>().First(x => x.Id == id);
 

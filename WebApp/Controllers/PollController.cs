@@ -48,7 +48,7 @@ namespace WebApp.Controllers
             if (option == null)
                 return NotFound();
 
-            //neste exemplo, foi criado um objeto anônimo para o retorno, sem criar uma classe
+            //neste exemplo, foi simplificado e criado um objeto anônimo para o retorno, sem criar uma classe
             var result = new
             {
                 option_id = option.Id
